@@ -1,0 +1,124 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #00c6fb, #005bea);
+  z-index: -1;
+}
+
+.game-container {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+/* .game-board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1em auto;
+  background-color: #f1c40f;  changed background color to a yellow color
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+} */
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  font-size: 3em;
+  cursor: pointer;
+  background-color: beige;
+}
+
+.cell:not(:last-child) {
+  margin-right: 10px;
+}
+
+.active {
+  background-color: gold;
+}
+
+.game-status {
+  margin-top: 20px;
+  margin-bottom: 20px;  /* added margin bottom to the game status */
+  font-size: 2em;
+}
+
+#reset-btn {
+  background-color: black; /* added background color to the reset button */
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: gold;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 20px;  /* added margin top to the reset button */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#reset-btn:hover {
+  background-color: red; /* changed background color on hover */
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+}
+
+#popup-content {
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: beige;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#popup-content h2 {
+  margin-top: 0;
+}
+
+#popup-message {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+#popup-btn {
+  background-color: black; /* added background color to the reset button */
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: gold;
+  font-size: 1.2em;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#popup-btn:hover {
+  background-color: red;  /* changed background color on hover */
+}

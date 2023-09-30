@@ -1,0 +1,15 @@
+click on this gdrive link
+https://drive.google.com/file/d/1tMCVtl8DjeRUlGteaDjLfiOBVZ7rz8za/view?usp=sharing
+for apk download. click on download
+
+installation steps: 
+1) it will say google drive cant scan this file for viruses/file might be harmful click on download anyway.
+2) open that apk from your downloaded location click on package installer --> install
+3) a google play protect popup will appear "unsafe app blocked" click on more details --> install anyway --> open
+
+notes:
+1) it will show "file might be harmful" because we have installed the app from an unknown source and not from any authorized or reliable website.
+2) google play protect popup is appearing due to i have not yet uploaded it on playstore as its asking me for payment so i have directly shared the 
+app with the help of hosting websites.
+3) its 100% safe no need to worry you can also have a antivirus scan on the same after installation.
+4) to play the game you need to have an internet connection because it is being hosted online.
